@@ -73,8 +73,3 @@ if __name__ == "__main__":
     history = list(chatbot.memory.list({"configurable":{"thread_id":"sessao-teste"}}))
     print("Memory Checkpoints:", history)
  
-    '''
-    for msg in mensagens_teste:
-        print(f"Usuário: {msg}")
-        resposta = chatbot.responder(msg)
-        print(f"Assistente: {resposta.content}\n")'''
